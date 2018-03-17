@@ -1,0 +1,12 @@
+table {
+    border: 4px double #333; /* Рамка вокруг таблицы */ 
+    border-collapse: separate; /* Способ отображения границы */ 
+    width: 100%; /* Ширина таблицы*/ 
+    height: 320px;
+    border-spacing: 7px 11px; /* Расстояние между ячейками */ 
+   }
+   td {
+    padding: 5px; /* Поля вокруг текста */ 
+    border: 1px solid #fff; /* Граница вокруг ячеек */
+	   text-align: center; /* Выравниваем текст по центру ячейки */
+   }
