@@ -1,10 +1,10 @@
-<script>
-function viewDiv(){
-  document.getElementById("div1").style.display = "block";
-};
-#div1{
-  display: none;
-}
-</script>
-<input type="button" value="Click" onmousedown="viewDiv()">
-<div id="div1">Блок</div>
+<head>
+    <script async="" type="text/javascript" src="http://yandex.st/jquery/2.0.3/jquery.js"></script>
+</head>
+<body>
+    <form action='' style="display:none;" id="new_form">
+    тут форма
+    </form>
+    <button onClick="$('#new_form').show();">Показать форму</button>
+    <button onClick="$('#new_form').hide();">Убрать форму</button>
+</body>
