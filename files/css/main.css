@@ -29,7 +29,7 @@ margin: 0;
 }
 
 .three ul {
-  padding: 0;
+  padding: 1;
   background: #2c3e50;
 }
 .three li {
@@ -39,6 +39,7 @@ margin: 0;
   padding: 1em;
   display: block;
   color: #F7F7F7;
+  border-right: 1px solid #FF0;
   background: rgba(255, 255, 0, .3);
 }
 .three a:hover {background: #BAD78B
