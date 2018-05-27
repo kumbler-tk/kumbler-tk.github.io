@@ -20,35 +20,35 @@
   margin-right: -18px;
   -webkit-transform-origin: center left;
           transform-origin: center left;
-  -webkit-animation: spin 3s linear infinite;
-          animation: spin 3s linear infinite;  
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;  
 }
 
 .dos {
   -webkit-transform-origin: center right;
           transform-origin: center right;
-  -webkit-animation: spin2 3s linear infinite;
-          animation: spin2 3s linear infinite;
-  -webkit-animation-delay: .2s;
-          animation-delay: .2s;
+  -webkit-animation: spin2 1s linear infinite;
+          animation: spin2 -s linear infinite;
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s;
 }
 
 .tres {
   -webkit-transform-origin: center right;
           transform-origin: center right;
-  -webkit-animation: spin3 3s linear infinite;
-          animation: spin3 3s linear infinite;
-  -webkit-animation-delay: .3s;
-          animation-delay: .3s;
+  -webkit-animation: spin3 1s linear infinite;
+          animation: spin3 1s linear infinite;
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s;
 }
 
 .cuatro {
   -webkit-transform-origin: center right;
           transform-origin: center right;
-  -webkit-animation: spin4 3s linear infinite;
-          animation: spin4 3s linear infinite;
-  -webkit-animation-delay: .4s;
-          animation-delay: .4s;
+  -webkit-animation: spin4 1s linear infinite;
+          animation: spin4 1s linear infinite;
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s;
 }
 
 @-webkit-keyframes spin {
