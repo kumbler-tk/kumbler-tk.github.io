@@ -1,10 +1,11 @@
+
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700italic);
 * { padding: 0; margin: 0; }
 body { background: ; font-family: 'Lato', sans-serif; letter-spacing: 1px;}
 
 header {
     text-align: center;
-    height: 5em;
+    height: 3em;
     padding: 1em 5%;
     background: #2c3e50;
     color: #fff;
@@ -30,23 +31,25 @@ margin: 0;
 
 .three ul {
   padding: 1;
-  background: #2c3e50;
+  background: 
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
 .three li {
   display: inline-block;
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+
 }
 .three a {
-  padding: 1em;
   display: block;
-  color: #F7F7F7;
-  border-right: 1px solid #FF0;
-  background: rgba(255, 255, 0, .3);
+  color: 2c3e50;
+  background: ##fff;
+  padding: 1em;
+  border-right: 1px #2c3e50;
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
-.three a:hover {background: #BAD78B
-}
+.three a:hover {background: #fff}
 
 
   body {
     font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */ }
    
-
